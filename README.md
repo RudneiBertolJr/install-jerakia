@@ -27,7 +27,8 @@ enabled=1" | tee /etc/yum.repos.d/jerakia.repo
 yum install jerakia -y
 ```
 
-#### 3. Após a instalação do jerakia, precisamos criar a estrutura de diretório default para o armazenamento das chaves que serão feitas lookup. 
+#### 3. Após a instalação do jerakia, precisamos criar a estrutura de diretório default para o armazenamento das chaves que serão feitas lookup.
+
   - Por padrão o jerakia utiliza o diretório /var/lib/jerakia/data, porém esse diretório não existe, primeiro precisamos criar esse diretório para depois iniciar a criação dos arquivos yaml que armazenam nossas chaves, para alterar a ordem de lookup, alteramos o arquivo /etc/jerakia/policy.d/default.rb, abaixo um exemplo do arquivo.
 
 ```shell
