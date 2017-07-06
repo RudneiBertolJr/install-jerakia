@@ -1,4 +1,4 @@
-# Documentação para instalação do Vault
+# Documentação para instalação do Jerakia
 
 - O que é Jerakia?
 
